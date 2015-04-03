@@ -28,7 +28,12 @@ class ViewController: UIViewController {
        
         if sender == redSlider {
             println("Red Slider changed !")
+        } else if sender == greenSlider {
+           println("Green Slider changed !")
+        } else {
+           println("Blue Slider changed !") 
         }
+        
     }
 
 
